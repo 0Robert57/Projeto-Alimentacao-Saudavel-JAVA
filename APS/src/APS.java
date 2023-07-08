@@ -14,7 +14,7 @@ public class APS {
 		
 		System.out.println(".________________________________________________________.");
 		System.out.println("|             	Projeto Alimentacao Saudavel             |");
-		System.out.println("|														 |");
+		System.out.println("|                                                        |");
 		System.out.println(".--------------------------------------------------------.");
 		System.out.println("|                   Informe seu nome:                    |");
 		nome = sc.nextLine();
@@ -42,9 +42,9 @@ public class APS {
 				System.out.println("|   A alimentacao saudavel e equilibrada, rica em vitaminas  e minerais pode trazer diversos   |");
 				System.out.println("| beneficios para a saude, como:                                                               |");
 				System.out.println("|______________________________________________________________________________________________|");
-				System.out.println("|* Mais energia                          |   * Promove o crescimento e a renova��o dos tecidos |");
-				System.out.println("|* Previne doen�as infecciosas           |   * Melhora a qualidade do sono                     |");
-				System.out.println("|* Diminui o risco de doen�as cr�nicas   |   * Melhora a concentracao                          |");
+				System.out.println("|* Mais energia                          |   * Promove o crescimento e a renovacao dos tecidos |");
+				System.out.println("|* Previne doencas infecciosas           |   * Melhora a qualidade do sono                     |");
+				System.out.println("|* Diminui o risco de doencas cronicas   |   * Melhora a concentracao                          |");
 				System.out.println(".________________________________________|_____________________________________________________.");
 				break;
 			case 2:
@@ -87,7 +87,7 @@ public class APS {
 					}
 				do{
 					System.out.println(".________________________________________________________.");
-					System.out.println("|Gostaria de continuar o calculo do imc?[s/n]                             |");
+					System.out.println("|Gostaria de continuar o calculo do imc?[s/n]            |");
 					vtimc2 = false;
 					vtimc = sc.next().charAt(0);
 					if(vtimc == 's' || vtimc == 'S') {
